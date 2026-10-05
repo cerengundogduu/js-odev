@@ -1,4 +1,4 @@
-export class Student {
+export default class Student {
   constructor(id, name, courses = []) {
     Object.defineProperty(this, 'id', {
       value: id,
